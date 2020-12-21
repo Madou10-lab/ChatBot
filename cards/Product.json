@@ -1,0 +1,82 @@
+{
+	"$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+	"type": "AdaptiveCard",
+	"version": "1.0",
+	"body": [
+		{
+			"type": "Container",
+			"items": [
+				{
+					"type": "TextBlock",
+					"text": "",
+					"weight": "bolder",
+					"size": "medium"
+				},
+				{
+					"type": "ColumnSet",
+					"columns": [
+						{
+							"type": "Column",
+							"width": "auto",
+							"items": [
+								{
+									"type": "Image",
+									"url": "",
+									"size": "large",
+									"style": "product"
+								}
+							]
+						},
+						{
+							"type": "Column",
+							"width": "stretch",
+							"items": [
+								{
+									"type": "TextBlock",
+									"text": "",
+									"wrap": true
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "Container",
+			"items": [
+				{
+					"type": "FactSet",
+					"facts": [
+						{
+							"title": "Author:",
+							"value": ""
+						},
+						{
+							"title": "Type:",
+							"value": ""
+						},
+						{
+							"title": "Price:",
+							"value": ""
+						}
+					]
+				}
+			]
+		}
+	],
+	"actions": [
+        {
+        "type": "Action.OpenUrl",
+        "title": "lien du produit",
+        "color": "accent",
+        "url": ""
+        },
+        {
+        "type": "Action.OpenUrl",
+        "title": "Ajouter au panier",
+        "color": "accent",
+        "url": ""
+        }
+	]
+}
